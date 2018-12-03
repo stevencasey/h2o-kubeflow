@@ -10,7 +10,7 @@
 // @optionalParam replicas number 1 starting number of pods
 
 local k = import 'k.libsonnet';
-local h2o3static = import 'kubeflow/h2oai/h2oai-h2o3.libsonnet';
+local h2o3static = import 'h2o-kubeflow/h2oai/h2oai-h2o3.libsonnet';
 
 local name = import 'param://name';
 local namespace = import 'param://namespace';

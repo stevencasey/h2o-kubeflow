@@ -10,7 +10,7 @@
 // @optionalParam gpu number 0 number of gpu allocated for deployment
 
 local k = import 'k.libsonnet';
-local driverlessai = import 'kubeflow/h2oai/h2oai-driverlessai.libsonnet';
+local driverlessai = import 'h2o-kubeflow/h2oai/h2oai-driverlessai.libsonnet';
 
 local name = import 'param://name';
 local namespace = import 'param://namespace';

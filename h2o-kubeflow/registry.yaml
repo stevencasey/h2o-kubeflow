@@ -13,9 +13,6 @@ libraries:
   mojo-serving:
     version: master
     path: mojo-serving
-  h2oai-h2o3:
+  h2oai:
     version: master
-    path: h2oai-h2o3
-  h2oai-driverlessai:
-    version: master
-    path: h2oai-driverlessai
+    path: h2oai
